@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Typography, Box } from '@mui/material';
-import homeImage from '../assets/images/home.jpg';
+import homeImage from '../home.jpg';
 
 const Home = () => {
     return (
