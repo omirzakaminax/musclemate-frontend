@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Typography, Box } from '@mui/material';
-import homeImage from '../home.jpg';
+import homeImage from '..musclemate-frontend/home.jpg';
 
 const Home = () => {
     return (
