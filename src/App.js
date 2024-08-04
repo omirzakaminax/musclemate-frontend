@@ -6,7 +6,12 @@ import About from './pages/About';
 import Facilities from './pages/Facilities';
 import Support from './pages/Support';
 import DataMonitoring from './pages/DataMonitoring';
+import ContactUs from './pages/ContactUs';
 import Technology from './pages/Technology';
+import HowItWorks from './pages/HowItWorks';
+import UserDashboard from './pages/UserDashboard';
+import UserGuide from './pages/UserGuide';
+import FAQ from './pages/FAQ';
 
 const App = () => {
     return (
@@ -19,6 +24,11 @@ const App = () => {
                 <Route path="/support" element={<Support />} />
                 <Route path="/data-monitoring" element={<DataMonitoring />} />
                 <Route path="/technology" element={<Technology />} />
+                <Route path="/contactus" element={<ContactUs />} />
+                <Route path="/howitworks" element={<HowItWorks />} />
+                <Route path="/userdashboard" element={<UserDashboard />} />
+                <Route path="/userguide" element={<UserGuide />} />
+                <Route path="/faq" element={<FAQ />} />
             </Routes>
         </Router>
     );

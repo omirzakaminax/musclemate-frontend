@@ -3,12 +3,15 @@ import { Container, Typography } from '@mui/material';
 
 const Facilities = () => {
     return (
-        <Container>
+        <Container className="container">
             <Typography variant="h4" component="h1" gutterBottom>
-                Facilities
+                Our Facilities
             </Typography>
-            <Typography variant="body1" component="p">
-                MuscleMate offers state-of-the-art facilities to ensure the best rehabilitation experience. Our facilities include advanced electromyography and neuro-muscular stimulation technologies, comfortable massage modules, and a user-friendly app for real-time data monitoring.
+            <Typography variant="body1" gutterBottom>
+                At MuscleMate, we pride ourselves on providing state-of-the-art facilities to support your rehabilitation and training needs. Our facilities are equipped with the latest technology and staffed by experienced professionals dedicated to your recovery and improvement.
+            </Typography>
+            <Typography variant="body1" gutterBottom>
+                From cutting-edge EMG and NMI equipment to comfortable and supportive environments, our facilities are designed to give you the best possible experience. Join us at MuscleMate and take advantage of our top-tier resources to enhance your recovery journey.
             </Typography>
         </Container>
     );
